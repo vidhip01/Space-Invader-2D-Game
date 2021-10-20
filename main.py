@@ -26,7 +26,7 @@ pygame.display.set_icon(icon)
 playerImg = pygame.image.load("player.png")
 playerX = 345
 playerY = 450
-playerX_change = 25
+playerX_change = 35
 
 # Enemy
 enemyImg =[]
