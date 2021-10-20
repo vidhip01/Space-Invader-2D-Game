@@ -3,10 +3,10 @@ from pygame import mixer #a class which handles all kinds of music and sounds
 import random
 import math
 
-#initialize the pygame
+#initializing the pygame
 pygame.init()
 
-#create the screen
+#creating the screen
 screen = pygame.display.set_mode((800,600))
 
 #background
@@ -194,7 +194,7 @@ while running:
 
     player(playerX,playerY)
     show_score(textX,textY)
-    pygame.display.update()
+    pygame.display.update()   #To update all the changes we made on screen
 
 
 
